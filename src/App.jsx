@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import './App.css';
+import photo from './assets/本人.jpg'; // ✅ 添加这一行
 
 function App() {
   const [formData, setFormData] = useState(() => {
@@ -53,7 +54,7 @@ function App() {
   return (
     <div className="container">
       <div className="header">
-        <img src="/本人.jpg" alt="头像" className="header-photo" />
+        <img src={photo} alt="头像" className="header-photo" />  {/* ✅ 替换图片路径 */}
         <p className="word_size">Resume</p>
       </div>
 
