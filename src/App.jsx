@@ -54,7 +54,7 @@ function App() {
   return (
     <div className="container">
       <div className="header">
-        <!--<img src={photo} alt="头像" className="header-photo" />-->
+        <img src={photo} alt="头像" className="header-photo" />
         <p className="word_size">Resume</p>
       </div>
 
@@ -87,7 +87,7 @@ function App() {
         <div className="preview">
 		{/* 👇 增加了这一部分头像和标题 👇 */}
 		    <div className="header">
-		      <!--<img src="/本人.jpg" alt="头像" className="header-photo" />-->
+		      <img src="/本人.jpg" alt="头像" className="header-photo" />
 		    </div>
           <h2>Resume:</h2>
           <p>👤 姓名：{formData.name}</p>
