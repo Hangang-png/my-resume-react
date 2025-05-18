@@ -54,7 +54,7 @@ function App() {
   return (
     <div className="container">
       <div className="header">
-        <img src={photo} alt="头像" className="header-photo" />  {/* ✅ 替换图片路径 */}
+        <img src={`${import.meta.env.BASE_URL}本人.jpg`} alt="头像" className="header-photo" />
         <p className="word_size">Resume</p>
       </div>
 
